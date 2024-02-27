@@ -1,0 +1,19 @@
+{
+  "posts": [
+    {
+      "id": "5f30",
+      "userName": "Manoj123",
+      "password": "123456"
+    },
+    {
+      "id": "549f",
+      "userName": "Dineshkumar",
+      "password": "12345"
+    },
+    {
+      "userName": "Lakshmi",
+      "password": "12345",
+      "id": "db39"
+    }
+  ]
+}

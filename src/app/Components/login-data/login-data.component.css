@@ -1,0 +1,75 @@
+
+.loginBtn{
+  background-color: #7548D9;
+  padding: 10px 20px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+
+.heading{
+  position: relative;
+  top: -14px;
+}
+
+.content-heading{
+  background-color: #7548D9;
+  padding: 20px 50px;
+  margin:  auto;
+  display: flex;
+  justify-content: center;
+  width: 95%;
+}
+
+.list-contents.active{
+  background-color: #7548D9;
+  padding: 14px;
+  margin-right: 10px;
+  color: #fff;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.main-content{
+  font-size: 25px;
+  color: #fff;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contents{
+  margin-top: 15px;
+}
+
+.list-contents{
+  padding: 20px 12px 20px;
+  cursor: pointer;
+}
+
+.spacer{
+  margin-left: 10px;
+}
+
+ul{
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+@media only screen and (max-width: 768px){
+  .loginForm{
+    margin-top: 100px !important;
+    margin-left: 6px !important;
+  }
+  .registerForm{
+    margin-left: 6px !important;
+  }
+}

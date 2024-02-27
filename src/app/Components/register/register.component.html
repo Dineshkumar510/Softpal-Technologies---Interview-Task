@@ -1,0 +1,27 @@
+<div class="cotainer">
+  <div class="row">
+
+      <div class="col-md-12 centerLogin mt-5 mb-4">
+          <div class="card" style="width: 50%; height: fit-content;">
+              <div class="form-contents m-4">
+                <form #formDetails="ngForm" (ngSubmit)="OnSubmit(formDetails)">
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">UserName</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    [(ngModel)]="email" required name="userName">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1"
+                    [(ngModel)]="password" required name="password">
+                  </div>
+                  <!-- <div class="mb-3">
+                    <label for="exampleInputPassword2" class="form-label">Confirm Password</label>
+                    <input type="text" class="form-control" id="exampleInputPassword2"
+                    [(ngModel)]="cnfpassword" required name="Cnfpassword">
+                  </div> -->
+                  <button type="submit" class="btn btn-primary mx-2" [disabled]="!formDetails.valid">Login</button>
+                </form>
+              </div>
+          </div>
+      </div>
